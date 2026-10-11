@@ -153,6 +153,10 @@ file = "kubejs/client_scripts/ipn_quickplay_fix.js"
 hash = "57ac92663f2d5413e604a34b02ffeeb36b67f4763785d4f5330dab7ca755a796"
 
 [[files]]
+file = "kubejs/config/web_server.json"
+hash = "62e7dc15d755bfdb73271fa00bb3223ad04b2cde2fb93f696050e2fe58ad19a8"
+
+[[files]]
 file = "kubejs/data/createthrusters/physics_block_properties/diagnostic_tablet.json"
 hash = "d65cc1fec9cfaa813c286aa7c0df37d869036870c77d551e1b696adfcc54aae1"
 
