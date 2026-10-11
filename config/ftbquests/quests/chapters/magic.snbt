@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: ""
+	icon: { id: "ars_nouveau:novice_spell_book" }
+	id: "1B0E045A363B6799"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6096D95CADE47073"
+			rewards: [
+				{
+					id: "35E81637173A40AC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "5D2179F6B2954EFE"
+					item: { count: 1, id: "ars_nouveau:worn_notebook" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6096D95CADE47073"]
+			id: "357A351E4D155297"
+			rewards: [
+				{
+					id: "14E1A33BB668990F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "0FB786EAC5D6B93C"
+					item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6096D95CADE47073"]
+			id: "28A40EF15879676D"
+			rewards: [
+				{
+					id: "149E27229EF96A82"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "733F62FF534133C1"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"357A351E4D155297"
+				"28A40EF15879676D"
+			]
+			id: "67A40B591B32B7CF"
+			rewards: [
+				{
+					id: "25402908A8CCDB1C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "11262038554B9AFE"
+					item: { count: 1, id: "ars_nouveau:scribes_table" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A40B591B32B7CF"]
+			id: "347C78F53591D122"
+			rewards: [
+				{
+					id: "57603593B71E27BB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "204B6549B670F4CD"
+					item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28A40EF15879676D"]
+			id: "7060C8C8EB980EB9"
+			rewards: [
+				{
+					id: "345D08286A13F337"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "72E450D9484D1203"
+					item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7060C8C8EB980EB9"]
+			id: "78277BF40B7BD3E6"
+			rewards: [
+				{
+					id: "2C34F477E781047C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4F289FD942E8904F"
+					item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+	]
+}

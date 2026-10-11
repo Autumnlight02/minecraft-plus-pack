@@ -1,0 +1,8 @@
+{
+  "selector": "createthrusters:diagnostic_tablet",
+  "properties": {
+    "sable:mass": 5.0,
+    "sable:friction": 0.5,
+    "sable:restitution": 0.1
+  }
+}

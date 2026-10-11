@@ -1,0 +1,13 @@
+key_key.mute_microphone:key.keyboard.comma
+key_key.emotecraft.fastchoose:key.keyboard.period
+key_gui.xaero_new_waypoint:key.keyboard.semicolon
+key_quark.keybind.lock_rotation:key.keyboard.home
+key_quark.keybind.variant_selector:key.keyboard.grave.accent
+key_key.kubejs.kubedex:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.f6
+key_key.hide_icons:key.keyboard.unknown
+key_keys.eclipticseasons.main/debug:key.keyboard.unknown
+key_keys.eclipticseasons.main/debug_1:key.keyboard.unknown
+key_gui.xaero_enlarge_map:key.keyboard.right.control
+key_key.paraglider.paragliderSettings:key.keyboard.unknown

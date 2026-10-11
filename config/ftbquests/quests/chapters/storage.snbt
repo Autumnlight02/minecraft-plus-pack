@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: { id: "refinedstorage:controller" }
+	id: "0CEDE7642D0DF868"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B04801BB0B2A5C1"
+			rewards: [
+				{
+					id: "3760469B73C81A02"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "0412F651C7BFD033"
+					item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7D59A265ECA32944"
+			rewards: [
+				{
+					id: "1AD354A69244C361"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3EA140F6409E898D"
+					item: { count: 1, id: "sophisticatedstorage:chest" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1B04801BB0B2A5C1"
+				"7D59A265ECA32944"
+			]
+			icon: { id: "minecraft:chest" }
+			id: "20B9D02031DB4FF1"
+			rewards: [
+				{
+					id: "071F89BF95162B25"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "6A6F56218AB65292", type: "checkmark" }
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20B9D02031DB4FF1"]
+			id: "5A3F91DD68CE49B4"
+			rewards: [
+				{
+					id: "7BC38E70BB988D3B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34E41BDE6A6B08F8"
+					item: { count: 1, id: "refinedstorage:controller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4299D1A0E08027D4"
+					item: { count: 1, id: "refinedstorage:grid" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A3F91DD68CE49B4"]
+			id: "434C15CFBECFB8F5"
+			rewards: [
+				{
+					id: "6C06649C58F63517"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3799D818B726D57F"
+					item: { count: 1, id: "createthrusters:alternator" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20B9D02031DB4FF1"]
+			id: "4AFB40F096833FCA"
+			rewards: [
+				{
+					id: "076501F0D674843A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "654622D39CB1B1B0"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4AFB40F096833FCA"]
+			id: "6F8C4699F386CD9B"
+			rewards: [
+				{
+					id: "26161B577079432F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "57ADD22D5F53086B"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+	]
+}

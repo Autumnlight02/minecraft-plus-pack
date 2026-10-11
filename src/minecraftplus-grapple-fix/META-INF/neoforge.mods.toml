@@ -1,0 +1,29 @@
+# Code-light NeoForge mod (lowcodefml + one mixin): makes the Grappling Hook Mod work on Sable ships.
+# Source in java/, rebuild with build.sh. See README.txt.
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "minecraftplus_grapplefix"
+version = "1.0.0"
+displayName = "Minecraft Plus: Grappling Hook on Ships"
+description = "A grappling hook that hit a Sable ship attached to the ship's storage plot (millions of blocks away). This attaches it to the visible ship and keeps it on the ship while it moves."
+authors = "Minecraft Plus"
+
+[[mixins]]
+config = "minecraftplus_grapplefix.mixins.json"
+
+[[dependencies.minecraftplus_grapplefix]]
+modId = "grapplemod"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_grapplefix]]
+modId = "sable"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

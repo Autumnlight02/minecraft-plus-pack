@@ -1,0 +1,5 @@
+{
+  "selector": "#minecraftplus_datafixes:none",
+  "priority": 1000,
+  "properties": { "sable:mass": 1.0 }
+}

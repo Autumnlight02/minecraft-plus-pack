@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: ""
+	icon: { id: "mcwroofs:oak_roof" }
+	id: "059257701021DBB7"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:bricks" }
+			id: "03C3F38EC1544394"
+			rewards: [
+				{
+					id: "45666A236F17CABA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "06AB9E94636E30CC", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03C3F38EC1544394"]
+			id: "3BAF4729FA281E73"
+			rewards: [
+				{
+					id: "67252F7D6E9D0293"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "09CEC82CB8BCB5F6"
+					item: { count: 1, id: "mcwroofs:oak_roof" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03C3F38EC1544394"]
+			id: "6274D812C77A30B2"
+			rewards: [
+				{
+					id: "0B796913BF2BD355"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5F606865FE870638"
+					item: { count: 1, id: "mcwfurnitures:oak_chair" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03C3F38EC1544394"]
+			id: "1E9FFAB6BF0B3A77"
+			rewards: [
+				{
+					id: "10564D1F69FA7476"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "22753CBA2BF7D472"
+					item: { count: 1, id: "framedblocks:framed_cube" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E9FFAB6BF0B3A77"]
+			id: "2AC5B6F636815316"
+			rewards: [
+				{
+					id: "134292D40F73BAB3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "65191124FCC287E9"
+					item: { count: 1, id: "copycats:copycat_slab" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03C3F38EC1544394"]
+			id: "19D5634342AE6E5D"
+			rewards: [
+				{
+					id: "0F633682AB6D4870"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "69B928F657FE0AF8"
+					item: { count: 1, id: "littletiles:hammer" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3BAF4729FA281E73"]
+			id: "386222C5B96DECBB"
+			rewards: [
+				{
+					id: "58D01B6AD7CA3A82"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "498BCCDF17004D27"
+					item: { count: 1, id: "supplementaries:jar" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6274D812C77A30B2"]
+			icon: { id: "twigs:lamp" }
+			id: "1D84D36CC5482E96"
+			rewards: [
+				{
+					id: "274C150401AC6EBB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{ id: "1072C973BE25038D", type: "checkmark" }
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"386222C5B96DECBB"
+				"1D84D36CC5482E96"
+			]
+			id: "7C4197308DEBDF8A"
+			rewards: [
+				{
+					id: "47B33B7521D9D53C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3FD7E5739934A64C"
+					item: { count: 1, id: "zetter:easel" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1D84D36CC5482E96"]
+			id: "3D1D635DDB5A7B35"
+			rewards: [
+				{
+					id: "22B61A692B2A1D96"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3DDD708296504F60"
+					item: { count: 1, id: "exposure:camera" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.25d
+		}
+	]
+}

@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computers"
+	group: ""
+	icon: { id: "computercraft:computer_advanced" }
+	id: "69CC69C5B7562B7B"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3229E7B8B0943061"
+			rewards: [
+				{
+					id: "3280AECBBDD6798E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "51C2C4623C85FEEF"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3229E7B8B0943061"]
+			id: "4A14B4AAD560E986"
+			rewards: [
+				{
+					id: "5E5A9DFDFC2A0AA8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "487A32DCF17BD7FA"
+					item: { count: 1, id: "computercraft:monitor_advanced" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3229E7B8B0943061"]
+			id: "75216367273BDC0F"
+			rewards: [
+				{
+					id: "0CF88E6228B1BC0C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "161C1BF6663FA5C0"
+					item: { count: 1, id: "computercraft:turtle_normal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3229E7B8B0943061"]
+			id: "1462F6F8109C75CF"
+			rewards: [
+				{
+					id: "19E4640F73208FEE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7A401191FCC38EFC"
+					item: { count: 1, id: "computercraft:wireless_modem_normal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75216367273BDC0F"]
+			id: "6B6065D0C2B0EA03"
+			rewards: [
+				{
+					id: "02163CBF05FFAD42"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "154016BFC3090C48"
+					item: { count: 1, id: "cccbridge:redrouter_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A14B4AAD560E986"]
+			id: "59EB92204A193562"
+			rewards: [
+				{
+					id: "4B51C274D34EC1D7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "04DDAD1FD9726A39"
+					item: { count: 1, id: "advancedperipherals:chat_box" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59EB92204A193562"]
+			id: "297ECB71674AE79C"
+			rewards: [
+				{
+					id: "4A23F905CCB35861"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "58861478B3980C36"
+					item: { count: 1, id: "advancedperipherals:smart_glasses" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "68A0D3797A50EE4B"
+					item: { count: 1, id: "advancedperipherals:overlay_module" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B6065D0C2B0EA03"]
+			icon: { id: "toms_peripherals:gpu" }
+			id: "4E93444191BDBC54"
+			rewards: [
+				{
+					id: "5057142F6A6E19B5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{ id: "040D1E27F6674C78", type: "checkmark" }
+			]
+			x: 7.5d
+			y: 0.75d
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [ { "type": "neoforge:mod_loaded", "modid": "cnbridge" } ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "PCP",
+    "SPS"
+  ],
+  "key": {
+    "S": { "item": "northstar:titanium_ingot" },
+    "P": { "item": "create:precision_mechanism" },
+    "C": { "item": "northstar:targeting_computer" }
+  },
+  "result": { "id": "cnbridge:dimensional_drive", "count": 1 }
+}

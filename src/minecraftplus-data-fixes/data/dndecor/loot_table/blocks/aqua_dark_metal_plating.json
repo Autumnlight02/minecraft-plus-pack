@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "dndecor:aqua_dark_metal_plating"
+  }
+ ],
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dndecor:aqua_dark_metal_plating"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "dndecor:blocks/aqua_dark_metal_plating"
+}

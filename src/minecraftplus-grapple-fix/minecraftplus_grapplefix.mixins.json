@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.minecraftplus.grapplefix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["GrapplehookOnShipMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: { id: "create:cogwheel" }
+	id: "112E49286A7CCAAC"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "create:goggles" }
+			id: "789E4ED0BF196EB3"
+			rewards: [
+				{
+					id: "7F540B19BD96E4E2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "6E758EC64A4AF120", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["789E4ED0BF196EB3"]
+			id: "3744A4915F07C77E"
+			rewards: [
+				{
+					id: "61BAD85AEFD9A275"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "428039DE8DFE5399"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3744A4915F07C77E"]
+			id: "335EDDC95D6CA64A"
+			rewards: [
+				{
+					id: "1766345044A761A4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6EAED65824634C60"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3744A4915F07C77E"]
+			id: "089F6E444A129EDE"
+			rewards: [
+				{
+					id: "708F947D8A178ABC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "627492A45B3ACE71"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1339A1C2C411DE1E"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"335EDDC95D6CA64A"
+				"089F6E444A129EDE"
+			]
+			id: "12D68BA36A37AF47"
+			rewards: [
+				{
+					id: "4392DD8A76F83EB7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "0CA11D2364D579E5"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"335EDDC95D6CA64A"
+				"089F6E444A129EDE"
+			]
+			id: "000141C83E33A1C1"
+			rewards: [
+				{
+					id: "1BE28AEF025C1415"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "41724E71F3737702"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "32003DDC7C3E4A86"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"12D68BA36A37AF47"
+				"000141C83E33A1C1"
+			]
+			id: "2D52746CE1267119"
+			rewards: [
+				{
+					id: "210F55EA827BE996"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6FA6858FAE3C9454"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D52746CE1267119"]
+			id: "73D673AE524894BD"
+			rewards: [
+				{
+					id: "2B8055DF3181C09F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "13AC34D68A05E289"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2434DA10F4509AE5"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73D673AE524894BD"]
+			id: "74A2F9E906F40359"
+			rewards: [
+				{
+					id: "68C5455DD9F87A76"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "764D5C506D2BC01F"
+					item: { count: 1, id: "createrailwaysnavigator:navigator" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D52746CE1267119"]
+			icon: { id: "create:wrench" }
+			id: "778B7E623551C2D9"
+			rewards: [
+				{
+					id: "515A21493349E98B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{ id: "10E0FD38BA7393D8", type: "checkmark" }
+			]
+			x: 12.5d
+			y: 1.0d
+		}
+	]
+}

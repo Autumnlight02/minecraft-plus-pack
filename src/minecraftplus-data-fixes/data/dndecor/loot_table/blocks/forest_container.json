@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "dndecor:forest_container"
+  }
+ ],
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dndecor:forest_container"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "dndecor:blocks/forest_container"
+}

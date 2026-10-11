@@ -1,0 +1,574 @@
+{
+	chapter.059257701021DBB7.chapter_subtitle: [
+		"Roofs, furniture, shapes, tiny tiles, lights, paintings and music."
+	]
+	chapter.059257701021DBB7.title: "Building and Decor"
+	chapter.0CEDE7642D0DF868.chapter_subtitle: [
+		"From drawers to full storage networks. Refined Storage is the simple one, AE2 the advanced one."
+	]
+	chapter.0CEDE7642D0DF868.title: "Storage"
+	chapter.112E49286A7CCAAC.chapter_subtitle: [
+		"Machines that run on rotation. Start here before airships, space or computers."
+	]
+	chapter.112E49286A7CCAAC.title: "Create"
+	chapter.1B0E045A363B6799.chapter_subtitle: ["Ars Nouveau: build your own spells. Fully optional."]
+	chapter.1B0E045A363B6799.title: "Magic"
+	chapter.344BD59ED8366A09.chapter_subtitle: [
+		"The basics: this book, finding recipes, travel, maps, safety and talking to each other."
+	]
+	chapter.344BD59ED8366A09.title: "Start Here"
+	chapter.346C5C177CDC1BE4.chapter_subtitle: [
+		"Biomes, structures, compasses, gliding, parkour and other dimensions."
+	]
+	chapter.346C5C177CDC1BE4.title: "Exploration"
+	chapter.3FB3E6267E339039.chapter_subtitle: [
+		"Real physics ships with Create Aeronautics. Do the Create chapter first."
+	]
+	chapter.3FB3E6267E339039.title: "Airships"
+	chapter.4F7F5BA1EC815B02.chapter_subtitle: ["Seasons, cooking and fishing."]
+	chapter.4F7F5BA1EC815B02.title: "Farming and Food"
+	chapter.69CC69C5B7562B7B.chapter_subtitle: ["Programmable computers, robots, sensors and Create control."]
+	chapter.69CC69C5B7562B7B.title: "Computers"
+	chapter.6E7320526F7BC5F3.chapter_subtitle: [
+		"MineColonies: found a town with workers who build and farm for you."
+	]
+	chapter.6E7320526F7BC5F3.title: "Colonies and NPCs"
+	chapter.780C712866916226.chapter_subtitle: [
+		"Fly an airship to the Moon. Needs a working airship and late Create parts."
+	]
+	chapter.780C712866916226.title: "Space"
+	file.0000000000000001.title: "Minecraft Plus"
+	quest.000141C83E33A1C1.quest_desc: [
+		"Mixes items and fluids in a Basin below it. Some recipes need heat from a Blaze Burner under the basin."
+	]
+	quest.000141C83E33A1C1.title: "Mechanical Mixer"
+	quest.003A7DA31B15A7D6.quest_desc: [
+		"Put the Cooking Pot over heat, like a campfire or a Stove. Meals and soups fill you up and give lasting comfort and nourishment effects."
+	]
+	quest.003A7DA31B15A7D6.title: "Cooking Pot"
+	quest.03C3F38EC1544394.quest_desc: [
+		"This pack has a lot of decor. The easiest way to browse is JEI: type @ and a mod name, for example @macaw, @supplementaries or @handcrafted."
+		""
+		"Every quest in this chapter is optional. Pick what you like."
+	]
+	quest.03C3F38EC1544394.title: "So many blocks"
+	quest.03D767C24C62A22A.quest_desc: [
+		"Big places to find: When Dungeons Arise, IDAS, YUNG's dungeons, mineshafts and temples, Towns and Towers, Structory, Moog's structures, and Dungeons and Taverns."
+		""
+		"They are spread out, so it pays to travel."
+	]
+	quest.03D767C24C62A22A.title: "Structures"
+	quest.089F6E444A129EDE.quest_desc: [
+		"Shafts and cogwheels carry rotation from block to block. Each machine adds stress; if a network has too much, it stops."
+		""
+		"Engineer's Goggles show speed and stress when you look at a part."
+	]
+	quest.089F6E444A129EDE.title: "Shafts, cogs and stress"
+	quest.0CADB93DA701C21C.quest_desc: [
+		"There is no air in space. You need all four pieces of a space suit."
+		""
+		"The chestpiece is the oxygen tank. A full tank lasts about an hour."
+	]
+	quest.0CADB93DA701C21C.title: "Space suit"
+	quest.105A8A05B8B2075D.quest_desc: [
+		"The Dimensional Drive reads its destination from a Space Atlas."
+		""
+		"Take readings with a Telescope (it uses paper), then add them to the atlas at an Astronomy Table."
+	]
+	quest.105A8A05B8B2075D.title: "Space Atlas"
+	quest.112307914CAE6B3B.quest_desc: [
+		"The item list on the right of your inventory is JEI. Type in the search box to find anything."
+		""
+		"Hover an item and press R to see how to make it, or U to see what it is used for. Type @ and a mod name (like @create) to list one mod's items."
+		""
+		"Just Enough Resources shows ore heights and mob drops. Just Enough Breeding shows what each animal eats."
+	]
+	quest.112307914CAE6B3B.title: "Finding recipes: JEI"
+	quest.12D68BA36A37AF47.quest_desc: [
+		"Presses ingots into sheets on a Depot or belt below it. With a Basin underneath it packs items together instead."
+	]
+	quest.12D68BA36A37AF47.title: "Mechanical Press"
+	quest.13F072A04B39DAE4.quest_desc: [
+		"Dig a 2x2 pool of water, plant flowers or grass around it, and throw in a diamond. Inside, bosses unlock the forest step by step. The Magic Map helps you find them."
+	]
+	quest.13F072A04B39DAE4.title: "The Twilight Forest"
+	quest.1462F6F8109C75CF.quest_desc: [
+		"Wired modems connect computers to blocks further away. Wireless modems let computers talk to each other."
+	]
+	quest.1462F6F8109C75CF.title: "Modems"
+	quest.14D6D61A46A4C1BD.quest_desc: [
+		"The Builder builds every hut. Place huts with the Build Tool; the builder then builds them, as long as you bring the materials it asks for."
+	]
+	quest.14D6D61A46A4C1BD.title: "The Builder"
+	quest.17EA97BD013DA537.quest_desc: [
+		"Create Slice and Dice, Create Central Kitchen and Autochef's Delight let Create machines do the cooking and cutting for you."
+	]
+	quest.17EA97BD013DA537.title: "Kitchen machines"
+	quest.19C324305925C12A.quest_desc: [
+		"Levitite floats. Enough of it makes a ship hover, but it never climbs on its own."
+		""
+		"Put levitite high up, in or near the balloon. Levitite low in the hull makes the ship flip over. It is made by pouring Levitite Blend (from a heated mixer) and touching it with fire, like a campfire or torch."
+	]
+	quest.19C324305925C12A.title: "Levitite"
+	quest.19D5634342AE6E5D.quest_desc: [
+		"LittleTiles lets you build with tiny tiles inside a single block, and even make animated doors."
+		""
+		"Start with the Hammer to place and remove small shapes. It is a beta mod: save often, and never build an airship only out of tiles."
+	]
+	quest.19D5634342AE6E5D.title: "LittleTiles"
+	quest.1A5AE36AF44A53F5.quest_desc: [
+		"The Skybound grappling hook sticks to moving ships, so you can swing aboard."
+		""
+		"Long Fall Boots (made at a smithing table) stop fall damage."
+	]
+	quest.1A5AE36AF44A53F5.title: "Grappling hook"
+	quest.1B04801BB0B2A5C1.quest_desc: [
+		"Each drawer holds a lot of one item and shows it on the front. Great for sorting the things you have most of."
+	]
+	quest.1B04801BB0B2A5C1.title: "Storage Drawers"
+	quest.1D215964A2A0FAB0.quest_desc: [
+		"Place the Town Hall to found your colony. Its menu explains a lot; the full guide is the MineColonies wiki."
+	]
+	quest.1D215964A2A0FAB0.title: "Town Hall"
+	quest.1D84D36CC5482E96.quest_desc: [
+		"Quark adds many small tweaks and blocks. Its Q button in the pause menu shows what each part does and lets you change your client settings."
+		""
+		"Twigs adds small decor like lamps, tables and paper lanterns."
+	]
+	quest.1D84D36CC5482E96.title: "Quark and Twigs"
+	quest.1E9FFAB6BF0B3A77.quest_desc: [
+		"Framed blocks copy the look of other blocks. Place one, then right-click it with any block to give it that block's look."
+		""
+		"Slopes, panels, corners and many more shapes come from the Framing Saw."
+	]
+	quest.1E9FFAB6BF0B3A77.title: "FramedBlocks"
+	quest.20B9D02031DB4FF1.quest_desc: [
+		"Both big storage mods are in: Refined Storage (simpler) and Applied Energistics 2 (more advanced, more to learn)."
+		""
+		"Pick whichever you like for your base. Both can be read by computers."
+	]
+	quest.20B9D02031DB4FF1.title: "Two storage networks"
+	quest.21F875941EA2D853.quest_desc: [
+		"Build a small ship that lifts off, flies somewhere and lands again. Ships show up on Xaero's map, so you can find them later."
+	]
+	quest.21F875941EA2D853.title: "First flight"
+	quest.28A40EF15879676D.quest_desc: [
+		"Source is magical energy for machines. An Imbuement Chamber turns amethyst into Source Gems."
+		""
+		"Source Jars store source, and Sourcelinks make it."
+	]
+	quest.28A40EF15879676D.title: "Source"
+	quest.297ECB71674AE79C.quest_desc: [
+		"Smart Glasses draw text and shapes on your screen. Craft them from an Advanced Pocket Computer."
+		""
+		"Put an Overlay Module in with the Smart Glasses Interface, then write a small Lua program that uses the overlay."
+	]
+	quest.297ECB71674AE79C.title: "Smart Glasses"
+	quest.2AC5B6F636815316.quest_desc: [
+		"Copycats+ is the Create version of the same idea: right-click a copycat block with any block to take its texture."
+		""
+		"Copycat blocks are light, which helps a lot on airships."
+	]
+	quest.2AC5B6F636815316.title: "Copycats+"
+	quest.2CB90D30822086E4.quest_desc: [
+		"Artifacts are rare magic items in chests. Simply Swords and Epic Knights add many more weapons, shields and armor."
+	]
+	quest.2CB90D30822086E4.title: "Loot and gear"
+	quest.2D52746CE1267119.quest_desc: [
+		"Mix copper and zinc in a heated mixer to make brass. Brass opens up the more precise parts like Precision Mechanisms, which later go into airships and space gear."
+	]
+	quest.2D52746CE1267119.title: "Brass"
+	quest.2EF6808B86264136.quest_desc: [
+		"Brew drinks and make cheese in a Keg. JEI shows every recipe."
+	]
+	quest.2EF6808B86264136.title: "Brewin' and Chewin'"
+	quest.2FEDBD77945FFF9B.quest_desc: [
+		"Jump from somewhere high and glide. Gliding uses stamina."
+		""
+		"Spirit Orbs from structures can be offered at Goddess Statues for more stamina or hearts."
+	]
+	quest.2FEDBD77945FFF9B.title: "Paraglider"
+	quest.32285A0BCD9A4D62.quest_desc: [
+		"An Electrolysis Machine turns water into oxygen. Pump the oxygen into an Oxygen Filler and put your suit in to fill it."
+	]
+	quest.32285A0BCD9A4D62.title: "Oxygen"
+	quest.3229E7B8B0943061.quest_desc: [
+		"CC: Tweaked computers run Lua programs. Right-click to open one, then type help or programs."
+		""
+		"The full docs are at tweaked.cc. Your files live inside the computer and stay when you break it if you label it first (label set name)."
+	]
+	quest.3229E7B8B0943061.title: "Your first computer"
+	quest.335EDDC95D6CA64A.quest_desc: [
+		"Machines need rotation. A Water Wheel next to flowing water is the easy first source. Windmills and steam engines come later."
+	]
+	quest.335EDDC95D6CA64A.title: "Making rotation"
+	quest.347C78F53591D122.quest_desc: ["A better book with stronger glyphs and more mana."]
+	quest.347C78F53591D122.title: "Apprentice Spell Book"
+	quest.357A351E4D155297.quest_desc: [
+		"Your first spell book. Open it to build spells: a form (like Projectile or Touch) plus effects (like Break or Harm)."
+		""
+		"Spells cost mana, which comes back over time."
+	]
+	quest.357A351E4D155297.title: "Novice Spell Book"
+	quest.3744A4915F07C77E.quest_desc: [
+		"Andesite Alloy is the base of almost every early Create part. JEI shows the simple crafting recipe (andesite and iron nuggets)."
+	]
+	quest.3744A4915F07C77E.title: "Andesite Alloy"
+	quest.386222C5B96DECBB.quest_desc: [
+		"Supplementaries and Amendments add lots of small useful things: jars, sacks, ropes, sign posts, flags, clocks and more."
+		""
+		"A jar is a good start: it holds items, fluids or even small critters."
+	]
+	quest.386222C5B96DECBB.title: "Supplementaries"
+	quest.38DAB388BF4E92B9.quest_desc: [
+		"Points to any biome you choose. In this pack the recipe is expensive on purpose: a compass plus saplings from eight biomes (oak, birch, spruce, jungle, acacia, dark oak, cherry and a mangrove propagule)."
+	]
+	quest.38DAB388BF4E92B9.title: "Nature's Compass"
+	quest.3A7D02DB64822231.quest_desc: [
+		"An Oxygen Sealer fills a closed room with air. It needs oxygen from behind and rotation from below."
+	]
+	quest.3A7D02DB64822231.title: "A base with air"
+	quest.3BAF4729FA281E73.quest_desc: [
+		"Macaw's mods add roofs, doors, trapdoors, windows, fences, walls, bridges, stairs, paths and lamps, in every wood and many stones."
+		""
+		"JEI shows how to make each one."
+	]
+	quest.3BAF4729FA281E73.title: "Macaw's blocks"
+	quest.3D1D635DDB5A7B35.quest_desc: [
+		"Exposure adds a real camera and printable photos. Etched puts your own music on discs. Immersive Melodies adds instruments you can play, and Chimes adds wind chimes."
+	]
+	quest.3D1D635DDB5A7B35.title: "Music and photos"
+	quest.42DB3CCEA6A5AE4E.quest_desc: [
+		"Carry On: with an empty hand, sneak and right-click a chest or a small animal to pick it up and carry it."
+		""
+		"Jade shows what you are looking at, AppleSkin shows how filling food is, and Inventory Profiles Next adds sort buttons to chests. Emotes have their own key; look in Options, Controls."
+	]
+	quest.42DB3CCEA6A5AE4E.title: "Small helpers"
+	quest.434C15CFBECFB8F5.quest_desc: [
+		"The Industrial Alternator turns Create rotation into FE power. Connect it with Andesite Cables. Faster rotation gives more power and more stress."
+	]
+	quest.434C15CFBECFB8F5.title: "Power from rotation"
+	quest.4792F59589009F80.quest_desc: [
+		"The world has many more biomes (Terralith, Oh The Biomes We've Gone, Regions Unexplored) and many more structures."
+		""
+		"Lootr gives every player their own loot in each chest, so nobody misses out."
+	]
+	quest.4792F59589009F80.title: "A bigger world"
+	quest.4805796CA15AECA7.quest_desc: [
+		"Place the Physics Assembler on your build and select the whole build with Super Glue (two clicks make a box). Then pull the assembler's lever: your build becomes a ship."
+		""
+		"To turn a ship back into blocks, land it level and slow first."
+	]
+	quest.4805796CA15AECA7.title: "Physics Assembler"
+	quest.4A14B4AAD560E986.quest_desc: [
+		"Advanced Monitors placed next to each other join into one big color screen. Show any program on it with: monitor <side> <program>."
+	]
+	quest.4A14B4AAD560E986.title: "Monitors"
+	quest.4AFB40F096833FCA.quest_desc: [
+		"AE2 starts with a meteorite: find one (a Meteorite Compass helps) to get certus quartz and the Inscriber presses."
+		""
+		"Hold G over any AE2 item to open its guide."
+	]
+	quest.4AFB40F096833FCA.title: "AE2: meteorites"
+	quest.4D46CC74F35B9692.quest_desc: [
+		"Start a colony with a Supply Camp. It needs fairly flat ground and won't place on steep slopes. On water, use the Supply Ship instead."
+		""
+		"Each player gets only one, so pick the spot well. Never build a colony on an airship."
+	]
+	quest.4D46CC74F35B9692.title: "Supply Camp"
+	quest.4E93444191BDBC54.quest_desc: [
+		"Computers keep working on a moving airship. Create Avionics lets them read and control ship parts."
+		""
+		"More screens: Tom's Peripherals adds a GPU and keyboards."
+	]
+	quest.4E93444191BDBC54.title: "Computers on ships"
+	quest.58651BEFB93B8FE8.quest_desc: [
+		"Space travel uses Create: Northstar (planets, suits, oxygen) and the Dimensional Drive, which carries a whole airship into space."
+		""
+		"Build a solid airship first (see the Airships chapter). Ponder works on the space parts too."
+	]
+	quest.58651BEFB93B8FE8.title: "To space"
+	quest.5955B1840C88262C.quest_desc: [
+		"Waystones stand in villages and out in the wild. Right-click one to activate it."
+		""
+		"From any waystone you can then travel to every waystone you have activated. You can also craft your own; JEI shows the recipe."
+	]
+	quest.5955B1840C88262C.title: "Waystones"
+	quest.597D20E253747151.quest_desc: [
+		"Galosphere adds crystal caves with Allurite and Lumiere. Alex's Caves adds strange cave biomes deep underground."
+		""
+		"Cave Tablets, found in underground cabins, help you find Alex's Caves biomes."
+	]
+	quest.597D20E253747151.title: "Crystal and wild caves"
+	quest.59EB92204A193562.quest_desc: [
+		"Advanced Peripherals adds sensors and helpers: Chat Box, Player Detector, Environment Detector, and bridges to Refined Storage and AE2."
+		""
+		"Its manual is a guide book; search for it in JEI."
+	]
+	quest.59EB92204A193562.title: "Advanced Peripherals"
+	quest.5A3F91DD68CE49B4.quest_desc: [
+		"Place a Controller, connect a Disk Drive with storage disks and a Grid using cables. The Grid shows all your items in one place."
+		""
+		"It needs FE power (see the next quest)."
+	]
+	quest.5A3F91DD68CE49B4.title: "Refined Storage"
+	quest.5AF7BF41130AE987.quest_desc: [
+		"Aeronautics Claims: protect your ship with your party's claims."
+		"Automated Logistics: airship stations for cargo routes."
+		"Climbable Ropes: climb ropes with an empty hand."
+		"Create Avionics: let computers read and fly your ship."
+	]
+	quest.5AF7BF41130AE987.title: "Ship extras"
+	quest.5CF170526D1224E8.quest_desc: [
+		"Farmer's Delight: a knife harvests straw from grass and crops. Place food on a Cutting Board and use the knife to slice it."
+	]
+	quest.5CF170526D1224E8.title: "Knife and cutting board"
+	quest.5D782148A93056C1.quest_desc: [
+		"Easy NPC lets server admins place custom characters with dialogue and trades. Right-click one to talk."
+	]
+	quest.5D782148A93056C1.title: "Easy NPC"
+	quest.5E34F25B39722133.quest_desc: [
+		"ParCool adds parkour moves: vaulting, wall jumps, rolls, climbing and more."
+		""
+		"Ctrl+P turns it on or off, Alt+P opens its settings. The ParCool Guide book explains every move."
+	]
+	quest.5E34F25B39722133.title: "Parkour"
+	quest.5E9345B23496AC5C.quest_desc: [
+		"Build the drive into your airship. Right-click it, put your Space Atlas in, pick a planet and press Arm and Confirm. Without an atlas it goes to Earth orbit."
+		""
+		"Then climb. At about Y 1750 the ship, its cargo and everyone on board jump to the Moon (Mars Y 2200, Venus Y 2600, Mercury Y 3000; those three also need an Interplanetary Navigator on the ship). Arm it before you pass Y 2000, or the game pulls you into orbit without your ship."
+		""
+		"JEI shows the recipe: titanium, precision mechanisms and a targeting computer. Engineer's Goggles on the drive show the height it needs."
+	]
+	quest.5E9345B23496AC5C.title: "Dimensional Drive"
+	quest.5FD72241EB2C3E0A.quest_desc: [
+		"Xaero's Minimap sits in the corner of your screen. Press M for the big world map."
+		""
+		"Right-click on the world map to make a waypoint. Waystones, airships and claimed land show up on the map too."
+	]
+	quest.5FD72241EB2C3E0A.title: "Maps and waypoints"
+	quest.5FF70AA9439EDC88.quest_desc: [
+		"Create Aeronautics (running on Sable) turns your builds into real physics objects. Ships fall, float, tilt and bump into things, and every block has weight."
+		""
+		"Ponder (hold W) on the Aeronautics items shows how each part works."
+	]
+	quest.5FF70AA9439EDC88.title: "Physics ships"
+	quest.6096D95CADE47073.quest_desc: [
+		"Ars Nouveau is the magic mod. Its guide is the Worn Notebook, which you get when you first join. If you lost it, JEI shows the recipe."
+		""
+		"Everything in this chapter is explained in more detail there."
+	]
+	quest.6096D95CADE47073.title: "The Worn Notebook"
+	quest.60E6CD7B43B92377.quest_desc: [
+		"Tide makes fishing a small minigame with many new fish. The Fishing Journal records every fish you catch."
+		""
+		"Better rods, lines, hooks and bobbers are in JEI."
+	]
+	quest.60E6CD7B43B92377.title: "Fishing with Tide"
+	quest.6274D812C77A30B2.quest_desc: [
+		"Four furniture mods are in: Macaw's Furniture, Another Furniture, Handcrafted and MrCrayfish's Furniture Refurbished. Create: Interiors adds chairs and cushions."
+		""
+		"Most chairs and benches are seats: right-click to sit."
+	]
+	quest.6274D812C77A30B2.title: "Furniture"
+	quest.6450110B491C48FA.quest_desc: [
+		"Visit the Moon. Gravity is low and there is no air. Titanium ore is found there."
+		""
+		"To go home, set the drive to Earth and climb again. The drive's screen shows the trigger height."
+	]
+	quest.6450110B491C48FA.title: "The Moon"
+	quest.67A40B591B32B7CF.quest_desc: [
+		"Learn new glyphs (spell parts) at the Scribe's Table. Every glyph you know adds to your max mana."
+	]
+	quest.67A40B591B32B7CF.title: "Scribe's Table"
+	quest.6A7D53524FF2E564.quest_desc: [
+		"This book is a friendly guide, not a to-do list. Each quest shows one thing the pack can do and where to learn more."
+		""
+		"Nothing is locked and nothing is required. Skip any chapter you don't care about."
+		""
+		"Open the book with the Quests button at the top left of your inventory. You can also bind a key for it in Options, Controls."
+	]
+	quest.6A7D53524FF2E564.quest_subtitle: "Read me first"
+	quest.6A7D53524FF2E564.title: "Welcome to Minecraft Plus"
+	quest.6B3E687A178A75B7.quest_desc: [
+		"Ecliptic Seasons gives the world real seasons with weather and snow. Crops grow well in some seasons and badly in others."
+		""
+		"A Calendar shows the date. The Growth Detector tells you how well a crop will grow where it stands. Greenhouses let you grow out of season; the Seasons Chronicle guide explains them."
+	]
+	quest.6B3E687A178A75B7.title: "Seasons"
+	quest.6B6065D0C2B0EA03.quest_desc: [
+		"Create machines already talk to computers: put one next to a Speedometer, Stressometer, Display Link or Train Station."
+		""
+		"CC:C Bridge adds more: the RedRouter (redstone on every side) and Source and Target blocks for Display Links."
+	]
+	quest.6B6065D0C2B0EA03.title: "Computers and Create"
+	quest.6B9D83F23C339869.quest_desc: [
+		"Create: Ballast adds Ballast Stones. They are very heavy, and each layer you add makes them heavier."
+		""
+		"The rule for a stable ship: levitite high, ballast low."
+	]
+	quest.6B9D83F23C339869.title: "Ballast low"
+	quest.6C35AB23DDF9C2F6.quest_desc: [
+		"Northstar also has rockets: Create contraptions built at a Rocket Station, with thrusters, fuel tanks and controls."
+		""
+		"We tested the airship route more than rockets, so check the Rocket Station's Ponder first."
+	]
+	quest.6C35AB23DDF9C2F6.title: "Rockets"
+	quest.6C9BD4D961BD9439.quest_desc: [
+		"Open Parties and Claims protects your builds. Claim chunks on Xaero's world map, or open the claims menu (default key: the apostrophe key ')."
+		""
+		"Invite friends to your party so they can build with you. Airships can be protected too, with the Aeronautics Claim block."
+	]
+	quest.6C9BD4D961BD9439.title: "Claims and parties"
+	quest.6CB2F1F5DA81873D.quest_desc: [
+		"The Steering Wheel turns bearings, and throttle levers and sensors help you fly."
+		""
+		"Create: Aeroworks adds control desks and joysticks. Gadgets and Gizmos adds thrusters."
+	]
+	quest.6CB2F1F5DA81873D.title: "Steering"
+	quest.6D2DA21EFAF00A03.quest_desc: [
+		"Sophisticated Backpacks give you extra space you can carry around. Wear it or keep it in your inventory."
+		""
+		"Upgrades add auto-pickup, feeding, crafting and more. JEI lists them all."
+	]
+	quest.6D2DA21EFAF00A03.title: "A backpack"
+	quest.6E22AC1826ADA89E.quest_desc: [
+		"Propellers push your ship. Use a Propeller Bearing with sails, or the ready-made propeller blocks."
+		""
+		"They need rotation on board, for example from a Portable Engine."
+	]
+	quest.6E22AC1826ADA89E.title: "Propellers"
+	quest.6F8C4699F386CD9B.quest_desc: [
+		"The Inscriber prints the processors every AE2 network needs. The ME Chest is a tiny first network."
+		""
+		"Create: Applied Kinetics' Energy Provider powers AE2 from rotation."
+	]
+	quest.6F8C4699F386CD9B.title: "AE2: Inscriber"
+	quest.7060C8C8EB980EB9.quest_desc: [
+		"Starbuncles are little helpers that carry items between chests. Summon one with a Starbuncle Charm and link chests with the Dominion Wand."
+	]
+	quest.7060C8C8EB980EB9.title: "Starbuncles"
+	quest.735B1C96D861B135.quest_desc: [
+		"Build a glowstone frame like a Nether portal and pour water inside. The Aether is a sky world of floating islands, so watch your step. Deep Aether adds more to it."
+	]
+	quest.735B1C96D861B135.title: "The Aether"
+	quest.73D673AE524894BD.quest_desc: [
+		"Lay Train Track, place a Train Station, build a train on the tracks with a bogey and Train Controls, then assemble it at the station."
+		""
+		"Ponder covers every step. Train schedules let trains drive on their own."
+	]
+	quest.73D673AE524894BD.title: "Trains"
+	quest.74A2F9E906F40359.quest_desc: [
+		"Create Railways Navigator: craft a Navigator to look up train connections between stations. Its displays show departures."
+		""
+		"Create: Train Perspective tilts your view with the train, and Bells and Whistles adds train decor."
+	]
+	quest.74A2F9E906F40359.title: "Train extras"
+	quest.74B2070930CA39D0.quest_desc: [
+		"Points to any structure you choose. The recipe needs things you find by exploring: a compass, four pottery sherds, a trial key, two echo shards and a name tag."
+	]
+	quest.74B2070930CA39D0.title: "Explorer's Compass"
+	quest.7507988541B95752.quest_desc: [
+		"Envelope blocks make a balloon. A burner below fills it with hot air and gives lift."
+		""
+		"A bigger balloon lifts more. Lift gets weaker the higher you fly."
+	]
+	quest.7507988541B95752.title: "Hot air balloons"
+	quest.75216367273BDC0F.quest_desc: [
+		"Turtles are little robot computers. Give one a pickaxe and they can mine, dig tunnels and build. Try the built-in programs tunnel and excavate."
+	]
+	quest.75216367273BDC0F.title: "Turtles"
+	quest.753D130769CD7714.quest_desc: [
+		"The Clipboard lists what your citizens are waiting for, so you know what to bring."
+	]
+	quest.753D130769CD7714.title: "Clipboard"
+	quest.761F6041CDADDFB4.quest_desc: [
+		"Simple Voice Chat lets you talk to players near you, like in real life."
+		""
+		"Press V for its settings: microphone test, push-to-talk key and groups. Groups let friends talk across the whole world."
+	]
+	quest.761F6041CDADDFB4.title: "Voice chat"
+	quest.778B7E623551C2D9.quest_desc: [
+		"The pack has many Create add-ons. A few highlights:"
+		"Bits 'n' Bobs, Connected, Dragons Plus and Encased: more parts and casings."
+		"Deco, Design n' Decor and Interiors: decor and seats."
+		"Enchantment Industry: liquid experience and machine enchanting."
+		"Slice and Dice and Central Kitchen: cooking automation."
+		"Power Loader: keeps chunks with contraptions loaded."
+		"Applied Kinetics: power AE2 with rotation."
+		""
+		"JEI with @ and the mod name lists each one's items."
+	]
+	quest.778B7E623551C2D9.title: "Create add-ons"
+	quest.78277BF40B7BD3E6.quest_desc: [
+		"Ars Creo connects magic to Create. A Starbuncle Wheel turns a running Starbuncle into rotation, and spell turrets keep working on contraptions."
+	]
+	quest.78277BF40B7BD3E6.title: "Ars Creo"
+	quest.789E4ED0BF196EB3.quest_desc: [
+		"Create is the big machine mod. Its best teacher is Ponder."
+		""
+		"Hover any Create item, in your inventory or in JEI, and hold W. A short animated scene shows how it works. Many Create add-ons in the pack have Ponder scenes too."
+	]
+	quest.789E4ED0BF196EB3.title: "Ponder: Create's teacher"
+	quest.78BE0214955137E8.quest_desc: [
+		"Your items don't spill on the ground. They wait in a gravestone where you died."
+		""
+		"Walk back and break the gravestone to get everything back. Other players can open it too, so a friend can rescue your things."
+	]
+	quest.78BE0214955137E8.title: "If you die"
+	quest.79A61406C8455582.quest_desc: [
+		"Incendium makes the Nether wilder. Nullscape and YUNG's Better End Island change the End, and Moog's End Structures add places to find there."
+	]
+	quest.79A61406C8455582.title: "Nether and End"
+	quest.79CA4A3EA8FC8466.quest_desc: [
+		"Lots of Farmer's Delight add-ons are in: Cultural Delights, Expanded Delight, Rustic Delight, Ocean's Delight, My Nether's Delight, End's Delight, Cook's Collection and Display Delight."
+		""
+		"Search @delight in JEI to see them all."
+	]
+	quest.79CA4A3EA8FC8466.title: "More food"
+	quest.7AA062D1F9BB0AD9.quest_desc: [
+		"Citizens need homes (Residence), food (Farmer, Cook) and a Warehouse with a Courier. TownTalk gives them voices."
+	]
+	quest.7AA062D1F9BB0AD9.title: "A growing town"
+	quest.7B7FDF4933660FD0.quest_desc: [
+		"The Architect's Cutter mixes two blocks into one new block. Many colony styles use these."
+	]
+	quest.7B7FDF4933660FD0.title: "Architect's Cutter"
+	quest.7C4197308DEBDF8A.quest_desc: [
+		"Fairy Lights strings lights between two points. Immersive Paintings lets you hang your own pictures, and Zetter lets you paint pixel art on an easel."
+	]
+	quest.7C4197308DEBDF8A.title: "Lights and paintings"
+	quest.7D59A265ECA32944.quest_desc: [
+		"Chests and barrels you can upgrade in place: more slots, sorting, auto-pickup and more. Upgrades are in JEI."
+	]
+	quest.7D59A265ECA32944.title: "Sophisticated Storage"
+	quest.7F092B2A05C4E35A.quest_desc: [
+		"Ancient Cities hold a portal frame to the Otherside. Light it with a Heart of the Deep, which the Warden drops. Bring good gear."
+	]
+	quest.7F092B2A05C4E35A.title: "Deeper and Darker"
+	task.0224E92F243AFB80.title: "Got it"
+	task.040D1E27F6674C78.title: "Got it"
+	task.058429B6E2C69092.title: "Got it"
+	task.06AB9E94636E30CC.title: "Got it"
+	task.081DBA2D9EDEF070.title: "Got it"
+	task.0FD12654BE28BB07.title: "Got it"
+	task.1072C973BE25038D.title: "Got it"
+	task.10E0FD38BA7393D8.title: "Got it"
+	task.11F81D477B556F43.title: "Let's go"
+	task.12A94D359DF42F86.title: "Got it"
+	task.1A6D223919C67105.title: "Got it"
+	task.1B5394B392ECB931.title: "Got it"
+	task.2CCCC366EE10005F.title: "Got it"
+	task.2E63D776154EECEB.title: "Got it"
+	task.3A354509D829CB4C.title: "Got it"
+	task.4B14433769076065.title: "Got it"
+	task.51F15F497F22EF7E.title: "Got it"
+	task.568C26ECFFF6589E.title: "Got it"
+	task.5706656CBF57BC29.title: "Got it"
+	task.58E6CDD7E1B8F0F5.title: "Got it"
+	task.6A6F56218AB65292.title: "Got it"
+	task.6E758EC64A4AF120.title: "Got it"
+	task.74F84B2733C8F21F.title: "Got it"
+	task.7966CA423AB627A4.title: "I flew"
+	task.7FD9C4214871EC02.title: "Got it"
+}

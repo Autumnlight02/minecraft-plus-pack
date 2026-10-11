@@ -1,0 +1,28 @@
+# Code-free NeoForge mod that only ships data (lowcodefml = no Java classes needed).
+# It overrides Terralith's skylands_spring biome to fix the "Feature order cycle" crash with
+# Oh The Biomes We've Gone (Terralith issue #250). ordering="AFTER" puts this mod's data pack
+# after Terralith's in the pack list, so this copy of the biome file wins.
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "minecraftplus_fixes"
+version = "1.0.0"
+displayName = "Minecraft Plus: Worldgen Fixes"
+description = "Pack-local data fixes for Minecraft Plus (Terralith skylands_spring feature-order fix)."
+authors = "Minecraft Plus"
+
+[[dependencies.minecraftplus_fixes]]
+modId = "terralith"
+type = "required"
+versionRange = "[2.6.2]"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_fixes]]
+modId = "biomeswevegone"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

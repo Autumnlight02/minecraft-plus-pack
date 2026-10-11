@@ -1,0 +1,13 @@
+name = "CC: AR (Neoforge)"
+filename = "cc_ar-0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7iPfxv7R/versions/mOI1gyfx/cc_ar-0.2.1.jar"
+hash-format = "sha512"
+hash = "a31badabcf667e8ca322fc8ef03006a33308eda8fe94f8ea55824467d36e3356271f2891bc3b1f242116a16f20dbec7a2cdf8d9c5fc2f035783abec465503e16"
+
+[update]
+[update.modrinth]
+mod-id = "7iPfxv7R"
+version = "mOI1gyfx"

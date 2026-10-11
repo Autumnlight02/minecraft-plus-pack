@@ -1,0 +1,13 @@
+name = "Minecraft Plus"
+author = "Autumn"
+version = "0.4.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c2d1b169feb9eaf11e44fad9ccd99940b384ad828c5f839ef73cca5ee53df89a"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"

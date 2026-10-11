@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: ""
+	icon: { id: "farmersdelight:cooking_pot" }
+	id: "4F7F5BA1EC815B02"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B3E687A178A75B7"
+			rewards: [
+				{
+					id: "0325CE1F40379D0B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "085BF6F6F78B84B7"
+					item: { count: 1, id: "eclipticseasons:calendar" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3E687A178A75B7"]
+			id: "5CF170526D1224E8"
+			rewards: [
+				{
+					id: "4DC45A896E5F20DC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "734DF67CBD51AD8A"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1A5F5D1410AB775C"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B3E687A178A75B7"]
+			id: "003A7DA31B15A7D6"
+			rewards: [
+				{
+					id: "3329C6B5A42E9CE3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "050F2E288C075C7E"
+					item: { count: 1, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "22B54F8A99F58F2E"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5CF170526D1224E8"
+				"003A7DA31B15A7D6"
+			]
+			id: "2EF6808B86264136"
+			rewards: [
+				{
+					id: "7F5DB09E1D3B6A61"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "78B62C0FE027558F"
+					item: { count: 1, id: "brewinandchewin:keg" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["003A7DA31B15A7D6"]
+			icon: { id: "farmersdelight:skillet" }
+			id: "79CA4A3EA8FC8466"
+			rewards: [
+				{
+					id: "0CB333EC5B0DD675"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{ id: "74F84B2733C8F21F", type: "checkmark" }
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79CA4A3EA8FC8466"]
+			id: "17EA97BD013DA537"
+			rewards: [
+				{
+					id: "2C6E164221994132"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2815B53EC453AA46"
+					item: { count: 1, id: "sliceanddice:slicer" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B3E687A178A75B7"]
+			id: "60E6CD7B43B92377"
+			rewards: [
+				{
+					id: "027C6071BD922B11"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "071D4322955D6056"
+					item: { count: 1, id: "tide:fishing_journal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+}

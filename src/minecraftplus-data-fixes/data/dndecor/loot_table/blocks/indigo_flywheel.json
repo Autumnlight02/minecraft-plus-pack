@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "dndecor:indigo_flywheel"
+  }
+ ],
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dndecor:indigo_flywheel"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "dndecor:blocks/indigo_flywheel"
+}

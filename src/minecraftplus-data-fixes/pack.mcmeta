@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Minecraft Plus data fixes (broken recipes, loot tables and physics entries from other mods)",
+    "pack_format": 48
+  }
+}

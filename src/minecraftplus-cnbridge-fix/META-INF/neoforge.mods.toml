@@ -1,0 +1,29 @@
+# Code-light NeoForge mod (lowcodefml + two mixins): fixes how the cnbridge Dimensional Drive finds its ship.
+# Source in java/, rebuild with build.sh. See README.txt.
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "minecraftplus_cnbridgefix"
+version = "1.0.0"
+displayName = "Minecraft Plus: Dimensional Drive Fix"
+description = "The cnbridge Dimensional Drive used the first ship in the dimension instead of the ship it is built into. This makes it use the ship that contains the drive."
+authors = "Minecraft Plus"
+
+[[mixins]]
+config = "minecraftplus_cnbridgefix.mixins.json"
+
+[[dependencies.minecraftplus_cnbridgefix]]
+modId = "cnbridge"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_cnbridgefix]]
+modId = "sable"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space"
+	group: ""
+	icon: { id: "cnbridge:dimensional_drive" }
+	id: "780C712866916226"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "northstar:moon_stone" }
+			id: "58651BEFB93B8FE8"
+			rewards: [
+				{
+					id: "28DF5F73F7185EB5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "081DBA2D9EDEF070", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58651BEFB93B8FE8"]
+			id: "0CADB93DA701C21C"
+			rewards: [
+				{
+					id: "477E14F28DDA0157"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3CB3FCAF7F3495BD"
+					item: { count: 1, id: "northstar:iron_space_suit_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "09D11F59F81E4C20"
+					item: { count: 1, id: "northstar:iron_space_suit_chestpiece" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "301D3AB989168FCA"
+					item: { count: 1, id: "northstar:iron_space_suit_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "194F19D63CDC4E16"
+					item: { count: 1, id: "northstar:iron_space_suit_boots" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CADB93DA701C21C"]
+			id: "32285A0BCD9A4D62"
+			rewards: [
+				{
+					id: "58A0A3594C34B9BF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5793EBEDE423AD14"
+					item: { count: 1, id: "northstar:oxygen_filler" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58651BEFB93B8FE8"]
+			id: "105A8A05B8B2075D"
+			rewards: [
+				{
+					id: "4D6C7103981C1839"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4DD4164933619B9A"
+					item: { count: 1, id: "northstar:telescope" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2086FE0B6EDBCA53"
+					item: { count: 1, id: "northstar:space_atlas" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["105A8A05B8B2075D"]
+			id: "5E9345B23496AC5C"
+			rewards: [
+				{
+					id: "73BF7EFEDEE08E4F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "44B2B7AB26A84DCB"
+					item: { count: 1, id: "cnbridge:dimensional_drive" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5E9345B23496AC5C"
+				"32285A0BCD9A4D62"
+			]
+			icon: { id: "northstar:moon_stone" }
+			id: "6450110B491C48FA"
+			rewards: [
+				{
+					id: "4DA95573AFEDBD38"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					dimension: "northstar:moon"
+					id: "7F81FAF69AE15F31"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6450110B491C48FA"]
+			id: "3A7D02DB64822231"
+			rewards: [
+				{
+					id: "7707764C52631AE2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "750AE6F94F758F2E"
+					item: { count: 1, id: "northstar:oxygen_sealer" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6450110B491C48FA"]
+			icon: { id: "northstar:rocket_station" }
+			id: "6C35AB23DDF9C2F6"
+			rewards: [
+				{
+					id: "37EFD24BBFCDCDA2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{ id: "2CCCC366EE10005F", type: "checkmark" }
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+	]
+}

@@ -1,0 +1,83 @@
+# Code-free NeoForge mod (lowcodefml): only ships data that overrides broken files from other mods.
+# Every dependency is optional with ordering = "AFTER", so this mod's data pack sorts after theirs and wins.
+# What each file does: see README.txt and notes/full-v1-boot-report.md.
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "minecraftplus_datafixes"
+version = "1.0.0"
+displayName = "Minecraft Plus: Data Fixes"
+description = "Pack-local data fixes for Minecraft Plus: broken recipes, loot tables for unregistered blocks, physics entries for missing blocks."
+authors = "Minecraft Plus"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "create"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "createdeco"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "galosphere"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "dndecor"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "create_connected"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "copycats"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "aerocopycats"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "sable"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "cnbridge"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.minecraftplus_datafixes]]
+modId = "northstar"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
