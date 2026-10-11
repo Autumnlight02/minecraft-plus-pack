@@ -9,3 +9,10 @@ _version = 5
 
 			[client.advanced.graphics.quality]
 				lodChunkRenderDistanceRadius = 256
+
+[common]
+
+	[common.multiThreading]
+		# Minecraft Plus: 4 threads keep the render thread smooth (16 starved it on a 16-thread CPU, 2026-10-11)
+		numberOfThreads = 4
+		threadRunTimeRatio = "0.5"

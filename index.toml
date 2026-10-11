@@ -18,7 +18,7 @@ hash = "169983c945bcdfbbf29fe7dcb42824c555205602eb60c4b73451791f9dd540d0"
 
 [[files]]
 file = "config/defaultoptions/extra/config/DistantHorizons.toml"
-hash = "a01323766becb54e36d7b771f87d24519cf513222f1be0944287215ef08c6479"
+hash = "2d8e7d23fa1702609d95f8c961edb927c00a1a1af70fc9393a5c30c77b7a4e23"
 
 [[files]]
 file = "config/defaultoptions/extra/config/inventoryprofilesnext/inventoryprofiles.json"
