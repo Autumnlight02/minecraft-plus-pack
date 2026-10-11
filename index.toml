@@ -21,6 +21,18 @@ file = "config/defaultoptions/extra/config/sodium-extra-options.json"
 hash = "0b74ccf3ac4d1358066c32a107ba6209b58940fe929c1f1d126b756ec5375273"
 
 [[files]]
+file = "config/defaultoptions/options.txt"
+hash = "6419b3f9b13e39cf212837f4a9751cb5f1b6c01855d0e07be159f31833000440"
+
+[[files]]
+file = "config/defaultoptions/extra/config/iris.properties"
+hash = "ee2a8ccaecb0aa2d772b6fadd492da5571dfb585c826d7659f882802c1f6ed44"
+
+[[files]]
+file = "config/defaultoptions/extra/config/DistantHorizons.toml"
+hash = "a01323766becb54e36d7b771f87d24519cf513222f1be0944287215ef08c6479"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "549f549f7cc300d4c5421c1e7f85c60b4688ce2215720b85a102e2b1ffa607b4"
 

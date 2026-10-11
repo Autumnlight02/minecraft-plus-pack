@@ -1,0 +1,11 @@
+# Minecraft Plus preset: only the keys that differ from DH's defaults; DH fills in the rest on first start.
+_version = 5
+
+[client]
+
+	[client.advanced]
+
+		[client.advanced.graphics]
+
+			[client.advanced.graphics.quality]
+				lodChunkRenderDistanceRadius = 256

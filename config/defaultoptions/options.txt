@@ -1,0 +1,4 @@
+version:3955
+renderDistance:12
+simulationDistance:10
+guiScale:2
