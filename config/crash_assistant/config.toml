@@ -240,7 +240,7 @@
 	#Here you can disable some Analysis by class names.
 	#List of them can be found here: dev.kostromdan.mods.crash_assistant.app.logs_analyser.crash_reasons
 	#For example "Create6Addons"
-	blacklisted_reasons = []
+	blacklisted_reasons = ["Create6Addons"]
 
 #Settings of analysis tools feature.
 #Here you can enable or disable showing some analysis tools for end user.

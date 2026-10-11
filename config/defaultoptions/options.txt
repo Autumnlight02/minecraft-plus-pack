@@ -2,3 +2,12 @@ version:3955
 renderDistance:12
 simulationDistance:10
 guiScale:2
+gamma:0.5
+fullscreen:true
+enableVsync:false
+tutorialStep:none
+onboardAccessibility:false
+skipMultiplayerWarning:true
+joinedFirstServer:true
+renderClouds:"true"
+graphicsMode:1

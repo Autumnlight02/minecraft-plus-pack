@@ -11,3 +11,4 @@ key_keys.eclipticseasons.main/debug:key.keyboard.unknown
 key_keys.eclipticseasons.main/debug_1:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.right.control
 key_key.paraglider.paragliderSettings:key.keyboard.unknown
+key_key.socialInteractions:key.keyboard.unknown

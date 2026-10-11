@@ -14,31 +14,51 @@ hash = "de18068a39c91f0d2a53018950e00998e4ba184fbc0e08919abec95a345c91ac"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "b29985d2c5f4e3a928b186c3ba178f0267345ed44798691c063d790b9944a652"
-
-[[files]]
-file = "config/defaultoptions/extra/config/sodium-extra-options.json"
-hash = "0b74ccf3ac4d1358066c32a107ba6209b58940fe929c1f1d126b756ec5375273"
-
-[[files]]
-file = "config/defaultoptions/options.txt"
-hash = "6419b3f9b13e39cf212837f4a9751cb5f1b6c01855d0e07be159f31833000440"
-
-[[files]]
-file = "config/defaultoptions/extra/config/iris.properties"
-hash = "ee2a8ccaecb0aa2d772b6fadd492da5571dfb585c826d7659f882802c1f6ed44"
+hash = "169983c945bcdfbbf29fe7dcb42824c555205602eb60c4b73451791f9dd540d0"
 
 [[files]]
 file = "config/defaultoptions/extra/config/DistantHorizons.toml"
 hash = "a01323766becb54e36d7b771f87d24519cf513222f1be0944287215ef08c6479"
 
 [[files]]
+file = "config/defaultoptions/extra/config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "b07a7d659026de564aca82cf021ca8bd6c11ef463ae48f87f3ab9b4007c7aadf"
+
+[[files]]
+file = "config/defaultoptions/extra/config/iris.properties"
+hash = "ee2a8ccaecb0aa2d772b6fadd492da5571dfb585c826d7659f882802c1f6ed44"
+
+[[files]]
+file = "config/defaultoptions/extra/config/jei/client/default/jei-client.ini"
+hash = "34f67dd05e599272827b8783b537dd0cc27abc58365c2b50997aa595f47284be"
+
+[[files]]
+file = "config/defaultoptions/extra/config/replaymod.json"
+hash = "b18022392e94a590a2bf54060d33e6ae3dffe094ff768b213419e2aebc82c7c1"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sodium-extra-options.json"
+hash = "0b74ccf3ac4d1358066c32a107ba6209b58940fe929c1f1d126b756ec5375273"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sodium-options.json"
+hash = "ba98dbcdfe82ee5715ab0a823c82bb023cc4d797648f9684db21944656109d67"
+
+[[files]]
+file = "config/defaultoptions/extra/config/voicechat/voicechat-client.properties"
+hash = "1f07ea572526c99bd87a3168de306b156c3d2f4174303b81341a602fc9642fc5"
+
+[[files]]
 file = "config/defaultoptions/extra/servers.dat"
-hash = "3a5ea93090fa88374ea8f4b4846b8d77c95d545511539ad832c6e30ba59b8e8d"
+hash = "a9cc2dd5b22d3cd0de42d9fa62bfbe43717a57e9af8be32409319c4d5bb91578"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "549f549f7cc300d4c5421c1e7f85c60b4688ce2215720b85a102e2b1ffa607b4"
+hash = "9536e3472501d20cb596dbb74134eff16582d8c31779a7bd5ffa7a6e0be29b11"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "b819f2f2bd77ba7e668beb2813c0d5db718daee18dda3b2ead265d68e902a82e"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
