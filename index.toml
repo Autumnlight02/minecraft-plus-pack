@@ -33,6 +33,10 @@ file = "config/defaultoptions/extra/config/DistantHorizons.toml"
 hash = "a01323766becb54e36d7b771f87d24519cf513222f1be0944287215ef08c6479"
 
 [[files]]
+file = "config/defaultoptions/extra/servers.dat"
+hash = "3a5ea93090fa88374ea8f4b4846b8d77c95d545511539ad832c6e30ba59b8e8d"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "549f549f7cc300d4c5421c1e7f85c60b4688ce2215720b85a102e2b1ffa607b4"
 
