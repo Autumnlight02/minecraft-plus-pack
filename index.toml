@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alexscaves-general.toml"
+hash = "a6f995e0f53c215cc30f535b054805cc4200af838ee78b243c929ea373223e06"
+
+[[files]]
 file = "config/alexscaves_biome_generation/forlorn_hollows.json"
 hash = "5b7a3342bd8afbe3d77ccba75dec5b78f24d91ce3d58fdab963b3a52e9f45c1f"
 
