@@ -161,6 +161,10 @@ file = "config/tectonic.json"
 hash = "5bf844569de3eecd9df0769afb94e5dd1a5f1789d22a51428425d3267272655a"
 
 [[files]]
+file = "config/world-gen.json"
+hash = "c7a45a50decc2c157411a25e2f05e105c3e02f34d728c7a3edb6e99715a203d6"
+
+[[files]]
 file = "kubejs/client_scripts/ipn_quickplay_fix.js"
 hash = "57ac92663f2d5413e604a34b02ffeeb36b67f4763785d4f5330dab7ca755a796"
 
