@@ -1428,6 +1428,11 @@ hash = "7ffe3d5a3b12fdc781031770dd9e137539f8b1b3a4676d556e9501befb6d89fc"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
+metafile = true
+
+[[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "bb3916bd466676b43fa6e5298a964c445191fa9178b956bf1692cc08249069a1"
 metafile = true
