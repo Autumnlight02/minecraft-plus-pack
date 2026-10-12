@@ -65,6 +65,10 @@ file = "config/defaultoptions/options.txt"
 hash = "b819f2f2bd77ba7e668beb2813c0d5db718daee18dda3b2ead265d68e902a82e"
 
 [[files]]
+file = "config/entityculling.json"
+hash = "2ef16fb92ffd0847e8d276c117df5b229584c7b938d97d513839775906ffb856"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
@@ -135,6 +139,10 @@ hash = "6a0fa54ba1e68e8dfd2e3eff9610266eaedf0129a863a1d0918a5e2ac41350c3"
 [[files]]
 file = "config/northstar_sable_horizon_bridge-common.toml"
 hash = "ceaf99176e3798e68dbed9a0520d2259ad719e44aa19b14c0cd02ecf284f22df"
+
+[[files]]
+file = "config/particle_core_config.toml"
+hash = "a12a91bce2492e08a9131cd8cf980f74c551f3bc2d8e7cf9d470f93b5864cb3c"
 
 [[files]]
 file = "config/simplebackups-common.toml"
@@ -801,6 +809,11 @@ hash = "b363434af9ce56fc7243c0db537bec2f99ecbfc618e226dbeda8835f435b887c"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "1a518584c9e3a73366f40b3c9e6fe1b25d9dd4aab9d14e82001b337033048a08"
 metafile = true
@@ -1290,6 +1303,11 @@ metafile = true
 [[files]]
 file = "mods/parcool.pw.toml"
 hash = "30f0fbae1bf5a8ece9e3920497d951caf083c0b7bb5d9d6edf6194e250fc7853"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]

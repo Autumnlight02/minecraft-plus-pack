@@ -1,12 +1,12 @@
 name = "Minecraft Plus"
 author = "Autumn"
-version = "0.4.0"
+version = "0.4.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d5c2f2f54b2e815aa31c210fafeef5a1a71f00dcf4462bc0181870e7250548ae"
+hash = "3392ad1bbf1815b98da1f5bc3f82ff1ec57a14ea9a8a1eaf71759ff932fd39ed"
 
 [versions]
 minecraft = "1.21.1"
