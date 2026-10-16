@@ -1,0 +1,5 @@
+# Minecraft Plus map migration (mod minecraftplus_mapmigration): when the server address changes, your Xaero
+# minimap waypoints and world map from the old address are merged into the new one, once, at game start.
+# Old folders are never changed. Installs that play from the home network (192.168.178.132) are skipped.
+# old address -> new address
+78.42.137.21 -> 37.201.224.126

@@ -1,0 +1,11 @@
+# Client-side: carries Xaero minimap/world map data over when the server address changes. Source in java/, build.sh.
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "minecraftplus_mapmigration"
+version = "1.0.0"
+displayName = "Minecraft Plus: Map Migration"
+description = "When the server address changes, merges your Xaero map and waypoints from the old address into the new one (rules in config/minecraftplus-address-migration.txt)."
+authors = "Minecraft Plus"

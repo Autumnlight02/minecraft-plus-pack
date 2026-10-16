@@ -129,6 +129,10 @@ file = "config/gravestone-server.toml"
 hash = "746ced134e9f2bf1cf0ce28931028457d5cffa3fec6b2e3f5496d33786686d8a"
 
 [[files]]
+file = "config/minecraftplus-address-migration.txt"
+hash = "d217bb60fe36999169162df73d8600bb5db115da77ac00c90577056838b9ff56"
+
+[[files]]
 file = "config/neoforge-server.toml"
 hash = "48b15278e1ed28dd8e3177b04c13437c02cb9597894b91e6f7a6fbfad66ddc1e"
 
@@ -1183,6 +1187,10 @@ hash = "09fb310c891116a5ef9bc52fc38aac6532d8a099f2ecc1c52a4fc37c9ad17219"
 [[files]]
 file = "mods/minecraftplus-data-fixes-1.0.0.jar"
 hash = "821900ff04e3986b9f99e8f600d56179996380b4873a34289cd80c4fe06efcf2"
+
+[[files]]
+file = "mods/minecraftplus-map-migration-1.0.0.jar"
+hash = "e8f7220f84e3f8b140434010a2e3f12aa9c25c3454410c066cf5948a8ccc61d6"
 
 [[files]]
 file = "mods/minecraftplus-worldgen-fixes-1.0.0.jar"
