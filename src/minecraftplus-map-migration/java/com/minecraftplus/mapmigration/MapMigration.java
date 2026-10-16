@@ -16,7 +16,8 @@ import net.neoforged.fml.loading.FMLPaths;
  * lines "old.host -> new.host". The old folders are left untouched.
  *   - files only in the old folder are copied
  *   - waypoint files (dim%*\/mw$*.txt): waypoints from the old file that the new file lacks are appended
- *   - world map regions (*.zip) in both: the bigger file wins (more explored chunks); that map's cache is cleared
+ *   - world map regions (*.zip) in both: merged chunk by chunk (XaeroRegion): every explored chunk of both is kept,
+ *     where both have a chunk the new address's (newer) one wins; that map's texture cache is cleared (rebuilt)
  *   - everything else (configs, locks, caches) in both: the new folder's copy is kept
  */
 @Mod("minecraftplus_mapmigration")
@@ -42,7 +43,7 @@ public class MapMigration {
             String line = raw.strip();
             if (line.isEmpty() || line.startsWith("#") || !line.contains("->")) continue;
             String from = line.substring(0, line.indexOf("->")).strip(), to = line.substring(line.indexOf("->") + 2).strip();
-            String key = from + " -> " + to;
+            String key = "v2 " + from + " -> " + to;   // v2: chunk-level region merge (v1 in pack 0.4.4 replaced whole regions)
             if (from.isEmpty() || to.isEmpty() || from.equals(to) || doneRules.contains(key)) continue;
             String stats = "";
             for (String top : new String[] {"minimap", "world-map"}) {
@@ -55,7 +56,7 @@ public class MapMigration {
     }
 
     static String merge(Path src, Path dst) throws IOException {
-        int copied = 0, waypoints = 0, regions = 0;
+        int copied = 0, waypoints = 0, regions = 0, failed = 0;
         Set<Path> staleMaps = new HashSet<>();
         List<Path> files;
         try (Stream<Path> s = Files.walk(src)) { files = s.filter(Files::isRegularFile).toList(); }
@@ -71,10 +72,18 @@ public class MapMigration {
             } else if (name.endsWith(".txt") && name.startsWith("mw$") && rel.getNameCount() >= 2
                     && rel.getName(rel.getNameCount() - 2).toString().startsWith("dim%")) {
                 waypoints += mergeWaypoints(f, d);
-            } else if (name.endsWith(".zip") && Files.size(f) > Files.size(d)) {
-                Files.copy(f, d, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
-                regions++;
-                staleMaps.add(d.getParent());
+            } else if (name.endsWith(".zip")) {
+                Path tmp = d.resolveSibling(name + ".mcplus-tmp");
+                try {
+                    XaeroRegion.merge(XaeroRegion.read(f.toFile()), XaeroRegion.read(d.toFile())).write(tmp.toFile());
+                    XaeroRegion.read(tmp.toFile());   // must read back before it replaces the new region
+                    Files.move(tmp, d, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
+                    regions++;
+                    staleMaps.add(d.getParent());
+                } catch (Exception e) {   // unknown format or damaged file: keep the new address's region untouched
+                    Files.deleteIfExists(tmp);
+                    failed++;
+                }
             }
         }
         for (Path map : staleMaps) {   // texture caches are rebuilt by the world map from the region files
@@ -82,7 +91,7 @@ public class MapMigration {
                 for (Path c : s.filter(p -> Files.isDirectory(p) && p.getFileName().toString().startsWith("cache")).toList()) deleteTree(c);
             }
         }
-        return copied + " files copied, " + waypoints + " waypoints added, " + regions + " regions replaced by bigger old ones";
+        return copied + " files copied, " + waypoints + " waypoints added, " + regions + " regions merged, " + failed + " regions skipped";
     }
 
     /** Appends old waypoints missing from the new file (same name and x/y/z = same waypoint); merges the "sets:" line. */

@@ -9,7 +9,7 @@ JAVAC=${JAVAC:-$(ls "$HOME"/.var/app/org.prismlauncher.PrismLauncher/data/PrismL
 CP=$(ls ../../../server-full/libraries/net/neoforged/fancymodloader/loader/*/loader-*.jar | head -1)
 rm -rf build && mkdir -p build/classes
 "$JAVAC" --release 21 -proc:none -nowarn -cp "$CP" -d build/classes $(find java -name '*.java')
-OUT=../../mods/minecraftplus-map-migration-1.0.0.jar
+OUT=../../mods/minecraftplus-map-migration-1.1.0.jar
 rm -f "$OUT"
 python3 - "$OUT" <<'PY'
 import os, sys, zipfile

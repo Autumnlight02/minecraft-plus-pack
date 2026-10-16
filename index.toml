@@ -1189,8 +1189,8 @@ file = "mods/minecraftplus-data-fixes-1.0.0.jar"
 hash = "821900ff04e3986b9f99e8f600d56179996380b4873a34289cd80c4fe06efcf2"
 
 [[files]]
-file = "mods/minecraftplus-map-migration-1.0.0.jar"
-hash = "e8f7220f84e3f8b140434010a2e3f12aa9c25c3454410c066cf5948a8ccc61d6"
+file = "mods/minecraftplus-map-migration-1.1.0.jar"
+hash = "ae5594ddc9b5048f90bf7acd97a32e431453e7b706ffda81ddf102aff76a30bb"
 
 [[files]]
 file = "mods/minecraftplus-worldgen-fixes-1.0.0.jar"

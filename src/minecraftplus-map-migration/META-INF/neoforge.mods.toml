@@ -5,7 +5,7 @@ license = "MIT"
 
 [[mods]]
 modId = "minecraftplus_mapmigration"
-version = "1.0.0"
+version = "1.1.0"
 displayName = "Minecraft Plus: Map Migration"
 description = "When the server address changes, merges your Xaero map and waypoints from the old address into the new one (rules in config/minecraftplus-address-migration.txt)."
 authors = "Minecraft Plus"
