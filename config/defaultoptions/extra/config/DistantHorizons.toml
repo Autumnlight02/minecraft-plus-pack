@@ -16,3 +16,10 @@ _version = 5
 		# Minecraft Plus: 4 threads keep the render thread smooth (16 starved it on a 16-thread CPU, 2026-10-11)
 		numberOfThreads = 4
 		threadRunTimeRatio = "0.5"
+
+	[common.logging]
+
+		[common.logging.warning]
+			# Minecraft Plus: no startup chat warnings (Alex's Caves compat note, G1 garbage collector tip)
+			showModCompatibilityWarningsOnStartup = false
+			showGarbageCollectorWarning = false

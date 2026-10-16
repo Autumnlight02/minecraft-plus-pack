@@ -22,7 +22,7 @@ hash = "169983c945bcdfbbf29fe7dcb42824c555205602eb60c4b73451791f9dd540d0"
 
 [[files]]
 file = "config/defaultoptions/extra/config/DistantHorizons.toml"
-hash = "2d8e7d23fa1702609d95f8c961edb927c00a1a1af70fc9393a5c30c77b7a4e23"
+hash = "21bc95c7ebc7e2d18818910cd95d333a991b66054803bc7c1b05c9629eea1019"
 
 [[files]]
 file = "config/defaultoptions/extra/config/inventoryprofilesnext/inventoryprofiles.json"
@@ -38,7 +38,7 @@ hash = "34f67dd05e599272827b8783b537dd0cc27abc58365c2b50997aa595f47284be"
 
 [[files]]
 file = "config/defaultoptions/extra/config/replaymod.json"
-hash = "b18022392e94a590a2bf54060d33e6ae3dffe094ff768b213419e2aebc82c7c1"
+hash = "dcb451ab2bafea199cefd8b86a647cdf2ef28a3ba9baa32820dd3f6be6893f17"
 
 [[files]]
 file = "config/defaultoptions/extra/config/sodium-extra-options.json"
@@ -54,7 +54,7 @@ hash = "1f07ea572526c99bd87a3168de306b156c3d2f4174303b81341a602fc9642fc5"
 
 [[files]]
 file = "config/defaultoptions/extra/servers.dat"
-hash = "a9cc2dd5b22d3cd0de42d9fa62bfbe43717a57e9af8be32409319c4d5bb91578"
+hash = "fb368fc0eb6856ffd0c7550bb946d292e339e575a2d3b03111498bf534c1ab29"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -143,6 +143,10 @@ hash = "ceaf99176e3798e68dbed9a0520d2259ad719e44aa19b14c0cd02ecf284f22df"
 [[files]]
 file = "config/particle_core_config.toml"
 hash = "a12a91bce2492e08a9131cd8cf980f74c551f3bc2d8e7cf9d470f93b5864cb3c"
+
+[[files]]
+file = "config/replaymod.json"
+hash = "dcb451ab2bafea199cefd8b86a647cdf2ef28a3ba9baa32820dd3f6be6893f17"
 
 [[files]]
 file = "config/simplebackups-common.toml"
