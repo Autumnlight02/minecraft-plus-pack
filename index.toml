@@ -281,6 +281,10 @@ file = "kubejs/server_scripts/sable_tags.js"
 hash = "dafdbec36e974c6b0baec98f6fa370809dc97032b37624219d7e7bfc3e440818"
 
 [[files]]
+file = "kubejs/server_scripts/smart_chestplate_recipe.js"
+hash = "57d01127e7b908fe52ce657ee225728afa1672c4832e3b681c3a9846f67439b7"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -383,6 +387,11 @@ metafile = true
 [[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "e735b472ad5c38359636d5abb84ed1baeb461f72aa19c324c349543823a16188"
+metafile = true
+
+[[files]]
+file = "mods/ars-elemental.pw.toml"
+hash = "8e9f867e9c0ff53e08e779ae54fd1bbead92f1d7323b75369e64ade719d5d7c1"
 metafile = true
 
 [[files]]
@@ -613,6 +622,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
+metafile = true
+
+[[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
 metafile = true
 
 [[files]]

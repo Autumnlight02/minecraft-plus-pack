@@ -1,0 +1,22 @@
+# Server-side fix: the LittleTiles Measure Tape kicked players (dedicated server could not decode littletiles:7c).
+# Source in java/, rebuild with build.sh. See README.txt.
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "minecraftplus_ltmeasurefix"
+version = "1.0.0"
+displayName = "Minecraft Plus: Little Tiles Measure Tape Fix"
+description = "Dedicated server only: removes the rendering code of the Measure Tape's box measurements on the server, so measuring no longer disconnects players."
+authors = "Minecraft Plus"
+
+[[mixins]]
+config = "minecraftplus_ltmeasurefix.mixins.json"
+
+[[dependencies.minecraftplus_ltmeasurefix]]
+modId = "littletiles"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
