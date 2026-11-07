@@ -278,7 +278,7 @@ hash = "8384a00d008721297043af022b69668a6ca310097c0bc7ff71faf0c66cf4c23a"
 
 [[files]]
 file = "kubejs/server_scripts/login_protection.js"
-hash = "5d8ef35fc088ef7ef51dd0885adfcc672f740e1ec56b41c3595809312fd0569b"
+hash = "b2646866677a3ffdc342877616330b2ce8d33a57478e110a69fc59cc5c40e857"
 
 [[files]]
 file = "kubejs/server_scripts/sable_tags.js"
