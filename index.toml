@@ -277,6 +277,10 @@ file = "kubejs/server_scripts/compass_recipes.js"
 hash = "8384a00d008721297043af022b69668a6ca310097c0bc7ff71faf0c66cf4c23a"
 
 [[files]]
+file = "kubejs/server_scripts/login_protection.js"
+hash = "5d8ef35fc088ef7ef51dd0885adfcc672f740e1ec56b41c3595809312fd0569b"
+
+[[files]]
 file = "kubejs/server_scripts/sable_tags.js"
 hash = "dafdbec36e974c6b0baec98f6fa370809dc97032b37624219d7e7bfc3e440818"
 
@@ -945,6 +949,11 @@ hash = "6ad22c468d67dcbb65784e161d4af9e671d3437cb5bfb1e86a42ae25207cf25b"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "eab79e969e91d4ab8e262f70e36fc67cab78fd42ade3cb181c01d18b14412eb8"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "932c65fb598293dba5dc60a76fc64c2579db427018b10dd4757dd421d9abcaf0"
 metafile = true
@@ -1396,6 +1405,11 @@ hash = "b0eaa9f9d88d583de0929a74835d38a2a837ec34b4d78b1fe75068ca011eca42"
 metafile = true
 
 [[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "6bee7be8af8f9247fbf84dcd1ec9af2adaa42e55d52ab8a5bfe9b6ff7c94da46"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
@@ -1488,11 +1502,6 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
-metafile = true
-
-[[files]]
-file = "mods/simple-backups.pw.toml"
-hash = "bb3916bd466676b43fa6e5298a964c445191fa9178b956bf1692cc08249069a1"
 metafile = true
 
 [[files]]
@@ -1603,6 +1612,16 @@ metafile = true
 [[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "934a295ab2d16e5bd86a61e14c2cd88f57fc107501ff0079beac341eda2d9e59"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "33eab1ec1f2b6a02756c74817832b56960b689f112690ecf37f8ce7f8077589f"
 metafile = true
 
 [[files]]
