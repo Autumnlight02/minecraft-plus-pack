@@ -1213,8 +1213,16 @@ file = "mods/minecraftplus-cnbridge-fix-1.0.0.jar"
 hash = "09fb310c891116a5ef9bc52fc38aac6532d8a099f2ecc1c52a4fc37c9ad17219"
 
 [[files]]
+file = "mods/minecraftplus-create-ct-camo-1.0.0.jar"
+hash = "685ca13576a749d9ec907107de164bda0020fdca83045afc5de71caab31720cc"
+
+[[files]]
 file = "mods/minecraftplus-data-fixes-1.0.0.jar"
 hash = "821900ff04e3986b9f99e8f600d56179996380b4873a34289cd80c4fe06efcf2"
+
+[[files]]
+file = "mods/minecraftplus-glasses-goggles-1.0.0.jar"
+hash = "9df15836542d6519fda682c3d0a9192a6777fca4c40a4a71963c80bb5883347d"
 
 [[files]]
 file = "mods/minecraftplus-map-migration-1.1.0.jar"

@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "mcplus_create_ct_camo"
+version = "1.0.0"
+displayName = "Minecraft Plus: Create CT on Framed Blocks"
+description = "Client-only. FramedBlocks blocks with a Create connected-texture camo (for example Create's framed glass) connect their textures like the real Create blocks."
+authors = "Minecraft Plus"
+
+[[mixins]]
+config = "mcplus_create_ct_camo.mixins.json"
+
+[[dependencies.mcplus_create_ct_camo]]
+modId = "create"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.mcplus_create_ct_camo]]
+modId = "framedblocks"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "CLIENT"

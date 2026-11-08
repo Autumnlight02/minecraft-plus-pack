@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "mcplus_glasses_goggles"
+version = "1.0.0"
+displayName = "Minecraft Plus: Goggles Module"
+description = "A Goggles Module for Advanced Peripherals Smart Glasses: with it installed, the glasses count as Create Engineer's Goggles."
+authors = "Minecraft Plus"
+
+[[dependencies.mcplus_glasses_goggles]]
+modId = "create"
+type = "required"
+versionRange = "[6.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mcplus_glasses_goggles]]
+modId = "advancedperipherals"
+type = "required"
+versionRange = "[0.8.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mcplus_glasses_goggles]]
+modId = "curios"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

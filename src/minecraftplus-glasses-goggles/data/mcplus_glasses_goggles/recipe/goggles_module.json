@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "create:goggles" },
+    { "item": "advancedperipherals:peripheral_casing" }
+  ],
+  "result": { "id": "mcplus_glasses_goggles:goggles_module", "count": 1 }
+}

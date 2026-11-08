@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mcplus_glasses_goggles:item/goggles_module"
+  }
+}
